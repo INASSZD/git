@@ -5,3 +5,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/INASSZD/git.git
 git push -u origin main
+
+================savoir les status des fichiers========
+git status 
+=====================ajouter les document dans git ==============================
+git add .  ou git add file1.txt     ou git add *.txt
+git commit -m "commentaire du commit"
+git push
+===================pour changer la branche=====================
+branch est une compie de projet 
+git checkout -b nom_branch
+
+
