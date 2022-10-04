@@ -12,8 +12,18 @@ git status
 git add .  ou git add file1.txt     ou git add *.txt
 git commit -m "commentaire du commit"
 git push
+
+
+=================================================================branches===================
+consulter 
+git branch
+===========
+
 ===================pour changer la branche=====================
 branch est une compie de projet 
 git checkout -b nom_branch
+===================pour commiter dans la nouvelle branche
+git push --set-upstream origin nom_branch (sans add et commit)
+
 
 
